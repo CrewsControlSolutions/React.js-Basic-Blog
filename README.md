@@ -1,15 +1,19 @@
 # React.js-Basic-Blog
 
 <p>
-This blog web app (<a href="https://crewsblogproject.netlify.app/" target="_blank"><b>click here to view</b><a>) provides the basics one would expect to find in a blog, such as a page to view all posts and a way for credentialed users to make new posts.  
+This blog web app (<a href="https://crewsblogproject.netlify.app/" target="_blank"><b>click here to view</b><a>) provides the basics one would expect to find in a blog, such as a page to view all posts and a way for credentialed users to make new posts.  The below image shows the blog home page.
 </p>
   
-![image-name-test](https://github.com/CrewsControlSolutions/React.js-Basic-Blog/blob/main/screenshots/HomePage.png?raw=true)
+![home-page](https://github.com/CrewsControlSolutions/React.js-Basic-Blog/blob/main/screenshots/HomePage.png?raw=true)
   
 <p>
-The app has complete CRUD functionality.  React Router is used for routing to the Create, Read, and Update pages from the home page.  (There is no Delete page since this is handled as an action instead.)
+The app has complete CRUD functionality.  React Router is used for routing to the Create, Read, and Update pages from the home page.  (There is no Delete page since this is handled as an action instead.)  The below image shows the view for creating or updating a post.
   
-User authentication and data storage is handled via  integration with Firebase.  Data relating to a post is not retrieved from state local to the client; rather, it is continuously retrieved from the Firebase Realtime Database.
+![new-or-edit-post](https://github.com/CrewsControlSolutions/React.js-Basic-Blog/blob/main/screenshots/EditPost.png?raw=true)
+  
+User authentication and data storage is handled via  integration with Firebase.  Data relating to a post is not retrieved from state local to the client; rather, it is continuously retrieved from the Firebase Realtime Database.  For a view of Firebase's NoSQL database, see the below image.
+  
+![firebase-realtime-db](https://github.com/CrewsControlSolutions/React.js-Basic-Blog/blob/main/screenshots/FirebaseRealtimeDatabase.png?raw=true)
   
 One current limitation is that new users cannot be created directly from the web app.  Instead, they must be created through Firebase's website.  Once created, a user is able to login to the blog app and create new posts or edit/delete any existing posts.
   
@@ -19,5 +23,5 @@ The UI/UX is simple yet clean.  The header, organization of blog posts, and sele
   
 Netlify is utilized for hosting the app's production version, including a <a href="https://crewsblogproject.netlify.app/" target="_blank">Live URL</a> for viewing in a web browser.  
   
-To view screenshots of what a credentialed user is able to see and perform in the app, see the <a href="https://github.com/CrewsControlSolutions/React.js/tree/main/blog-project/screenshots">Screenshots</a> folder.  If you would like temporary user access to experience full functionality, please contact the author via <a href="https://www.linkedin.com/in/kylecrews94/" target="_blank">LinkedIn</a> or submit an inquiry from their <a href="https://crewscontrolsolutions.github.io/" target="_blank">Portfolio</a>.
+To view screenshots of what a credentialed user is able to see and perform in the app, see the <a href="https://github.com/CrewsControlSolutions/React.js-Basic-Blog/tree/main/screenshots">Screenshots</a> folder.  If you would like temporary user access to experience full functionality, please contact the author via <a href="https://www.linkedin.com/in/kylecrews94/" target="_blank">LinkedIn</a> or submit an inquiry from their <a href="https://crewscontrolsolutions.github.io/" target="_blank">Portfolio</a>.
 </p>
