@@ -1,9 +1,12 @@
 # React.js-Basic-Blog
-A basic blog web app featuring CRUD functionality, routing, and integration with Firebase.
 
 <p>
 This blog web app (<a href="https://crewsblogproject.netlify.app/" target="_blank"><b>click here to view</b><a>) provides the basics one would expect to find in a blog, such as a page to view all posts and a way for credentialed users to make new posts.  The app has complete CRUD functionality.  User authentication and all content from posts is handled via  integration with Firebase.  Data relating to a post is not retrieved from state local to the client; rather, it is continuously retrieved from the Firebase Realtime Database.
+</p>
   
+
+  
+<p>  
 One current limitation is that new users cannot be created directly from the web app.  Instead, they must be created through Firebase's website.  Once created, a user is able to login to the blog app and create new posts or edit/delete any existing posts.
   
 React Router is used for routing to the Create, Read, and Update pages from the home page.  (There is no Delete page since this is handled as an action.)
